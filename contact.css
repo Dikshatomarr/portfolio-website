@@ -102,15 +102,87 @@ for Phone */
 
 
 @media screen and (max-width:735px) {
+.body{
+    height:100vh;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
 
+.gap{
+    font-size: 80px;
+    width:600px;
+}
 
+.intro1 p{
+    width: 400px;
+}
+.gapp{
+    font-size: 30px;
+    width:50px;
+    
 
+}
 
+.contactform{
+    margin-top: 100px;
+    margin-left: 0px;
+    width: 600px;
 
+}
 
+#name{
+    height: 50px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: rgb(238, 188, 122);
+}
+#mailme{
+    height: 50px;
+    width: 300px;    margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: rgb(238, 188, 122);
+}
+#subject{
+    height: 50px;
+    width: 300px;margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: rgb(238, 188, 122);
+}
 
+#textarea{
+    height: 50px;
+    width: 300px; margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: rgb(238, 188, 122);
+}
 
+.submit{
+    margin-top: 20px;
+    width:150px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 7px;
+    border-color: rgb(238, 188, 122);
+    color: white;
 
+}
+
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+#marquee{
+    width:500px;
+    height:30px;
+}
+
+#hr{
+    width: 722px;
+}
 
     
 }
