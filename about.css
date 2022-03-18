@@ -1,0 +1,386 @@
+body{
+    background-image: url("img/Untitled\ design\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;;
+}
+
+/* HERO SECTION */
+.hero1{
+    /* background-image: url("img/1.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:auto;
+    /* height:100vh; */
+    margin-right: 0;
+    /* justify-content: center; */
+  
+}
+
+
+.biodiksha{
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Dongle', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.deebio h1{
+    padding-top: 155px;
+    font-size: 50px;
+    padding-left: 120px;
+    color:#66fcf1 ;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+.deebio h2{
+    /* background-color: cadetblue; */
+    padding-top: 20px;
+    padding-left: 120px;
+    line-height: 27px;
+    padding-right: 130px;
+    text-align: left;
+    /* justify-content: center; */
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero1 img{
+    border-radius: 50%;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+.resume1{
+    /* text-align: center; */
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: #66fcf1;
+    width: 12em;
+    height: 3em;
+    border-radius: 24px;
+    border-color: #66fcf1;
+    
+}
+.resume{
+    /* text-align: center; */
+    padding-left: 140px;
+    margin-top: 20px;
+    font-size: 13px;
+    transition: width 3s, height 23s, color 1s;
+}
+
+.resume button:hover{
+    width: 14em;
+    height: 3.5em;
+    /* background: #0ab3a4; */
+    color: black;
+    background-color: #66fcf1;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* Skills */
+
+/* --------------------------------------------------------------------------------- */
+
+#skills{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 55px;
+    /* background-color: black; */
+    /* background-image: url("img/toon1.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:auto;
+    height:40vh;
+    color: #66fcf1;
+    margin-right: 0;
+}
+ .icons{
+    /* background-color: black; */
+    /* background-image: url("img/toon1.jpg"); */
+ 
+    width:auto;
+    height:35vh;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+ }
+
+.icons{
+    justify-content: space-evenly;
+}
+
+ .skillsicon img{
+     border-radius:24px;
+ }
+ .more{
+     /* background-color: black; */
+     text-align: center;
+ }
+ #more1{
+     background-color: transparent;
+     border-radius: 24px;
+     border-color: #66fcf1;
+     color: #66fcf1;
+     /* border-radius: 24px; */
+     height: 50px;
+     width: 14rem;
+     font-size: 25px;
+     margin-top: 22px;
+     margin-bottom: 130px;
+ }
+ #more1:hover{
+    color: black;
+    background-color: #66fcf1;
+ }
+
+/* .footer{
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+
+    /* background-color: black; 
+} */
+.contact{
+    display:flex;
+    min-height: 100px;
+    font-family: oswald;
+    margin-left: 2em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.intro{
+    margin-left: 5em;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+.intro h1{
+    margin-bottom: 1rem;
+}
+.socials{
+    margin-left: 35em;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: large;
+
+}
+.socials h1{
+    font-size: 30px;
+
+}
+.socials a{
+    font-size: 35px; 
+}
+#l{
+   background-color: #0077b5;
+   width:33px;
+}
+#t{
+    background-color: #0077b5;
+   width:33px;
+   height: 34px;
+}
+.contact h1{
+    font-size: 30px;
+
+}
+.contact p{
+    /* margin-top: 30px; */
+    font-size: 20px;
+    font-family: "League Spartan";
+}
+
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* WEB RESPONSIVE */
+
+
+
+
+@media screen and (max-width:722px){
+    .biodiksha{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 700px;
+    }
+    .deebio h1{
+       padding-top: 50px;
+       font-size: 40px;
+       /* padding-left: 3px; */
+       color:#66fcf1 ;
+       font-weight: bolder;
+   }
+   #dt{
+       padding-left: 120px;
+   }
+   
+   
+   .deebio h2{
+       padding-top: 20px;
+       padding-left: 120px;
+       text-align: left;
+       line-height: 27px;
+       font-size: 20px;
+       font-family:Arial, Helvetica, sans-serif;
+       width: auto;
+   }
+   
+   .hero1 img{
+       border-radius: 50%;
+       margin-left: 120px;
+       width: 400px;
+       height: 400px;
+   }
+
+   #skillssection{
+      
+       height: 80vh;
+      /* align-items: center; */
+      padding-left: 100px;
+   
+   }
+   
+   
+   
+   #skills{
+       
+       margin-top: 65px;
+       padding-left: 100px; 
+       font-size: 55px;   
+       margin-bottom: 60px; 
+       color: #66fcf1;
+   }
+   
+   .icons{
+       margin-left: 120px;
+       /* margin-bottom: 100px; */
+       width:200px;
+       height:580px;
+       margin-right: 0;
+       display: flex;
+       flex-direction: column; }
+   
+       .icons1{
+           width:100px;
+           height:700px;
+           margin-right: 0;
+           display: flex;
+           flex-direction: column;;
+        }
+ 
+        .skillsicon{
+            justify-content: space-between;
+        }
+        .skillsicon img{
+          width:150x;
+          height:150px;
+          
+       }
+   
+       .more{
+           /* background-color: black; */
+           text-align: center;
+       }
+       #more1{
+           background-color: transparent;
+           border-radius: 24px;
+           border-color: #66fcf1;
+           color: #66fcf1;
+           /* border-radius: 24px; */
+           height: 50px;
+           width: 14rem;
+           font-size: 25px;
+           margin-top: 600px;
+           margin-left: 180px;
+           
+       }
+       #more1:hover{
+          color: black;
+          background-color: #66fcf1;
+       }
+   
+       #btn-back-to-top{
+           position: fixed;
+           font-size: 30px;
+           bottom: 20px; 
+            right: 20px;
+           display: none;
+   } 
+
+
+
+
+.contact{
+    width: auto;
+    display:none;
+    flex-direction: column;
+    /* min-height: 100px; */
+    font-family: oswald;
+    /* margin-left: 2em; */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.intro{
+    margin-left: 5em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+.socials{
+    margin-left: 5em;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: large;
+
+}
+.socials h1{
+    font-size: 30px;
+
+}
+.socials a{
+    font-size: 35px; 
+}
+#l{
+   background-color: #0077b5;
+   width:33px;
+}
+#t{
+    background-color: #0077b5;
+   width:33px;
+   height: 34px;
+}
+.contact h1{
+    font-size: 30px;
+
+}
+.contact p{
+    /* margin-top: 30px; */
+    font-size: 20px;
+    font-family: "League Spartan";
+}
+.marquee{
+    display: none;}
+
+}
