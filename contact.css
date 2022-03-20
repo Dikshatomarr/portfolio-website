@@ -67,6 +67,10 @@ margin-bottom:5rem;
 
 }
 
+.intro1{
+    width:500px;
+}
+
 .gap{
     font-size: 50px;
     color:  rgb(238, 188, 122);
@@ -101,18 +105,19 @@ for Phone */
 
 
 
-@media screen and (max-width:735px) {
+@media screen and (max-width:622px) {
 .body{
-    height:100vh;
+    height:50vh;
 }
 .flex{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
 .gap{
-    font-size: 80px;
-    width:600px;
+    font-size: 50px;
+    width:500px;
 }
 
 .intro1 p{
@@ -120,7 +125,7 @@ for Phone */
 }
 .gapp{
     font-size: 30px;
-    width:50px;
+    width:30px;
     
 
 }
@@ -128,10 +133,33 @@ for Phone */
 .contactform{
     margin-top: 100px;
     margin-left: 0px;
-    width: 600px;
+    width: 500px;
 
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 200px;
+    justify-content: space-between;
+    font-size: 50px;
+    width: 560px;
+}
+.icon{
+    display: none;
+}
+
+.navmenu{
+    /* width: 700px; */
+    background-color: transparent;
+}
+.brandlogo{
+    display: none;
+}
+
+.navmenu{
+    justify-content: flex-start;
+}
 #name{
     height: 50px;
     width: 300px;
@@ -181,7 +209,7 @@ for Phone */
 }
 
 #hr{
-    width: 722px;
+    width: 560px;
 }
 
     

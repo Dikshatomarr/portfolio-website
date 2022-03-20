@@ -270,7 +270,7 @@ for Phone */
 
 
 
-@media screen and (min-width:100px) and (max-width:735px) {
+@media screen and (min-width:100px) and (max-width:622px) {
     
 body {
     font-size: 10px;
@@ -280,101 +280,27 @@ body {
     /* font-family: Arial,Helvetica,sans-serif; */
 }
 
-.head1{
-    display:block;
-    font-size:15px;
-    padding-top: 5px;
-    padding-left: 0.5em;
-    position:absolute;
-}
 .navbar{
-    /* list-style-type: none; */
     display: flex;
-    /* background-image: url(img/img1.webp);
-    background-repeat: no-repeat;
-    background-size: contain; */
-    border-top:2px;
-    position:static;
-    width:auto;
-    border-color: #000000;
-    height: 30px;
-    overflow: hidden;
-    color: #C5c6c7; 
-    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row-reverse;
+    padding-right: 100px;
+    font-size: small;
+}
+.icon{
+    display: none;
 }
 
-.navbar ul{
-    list-style-type: none;
-    display: inline-flex;
-    column-gap: 2px;
-    font-size: 8px;
-    /* padding-left: 21em;
-    padding-top: 15px; */
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+.navmenu{
+    /* width: 700px; */
+    background-color: transparent;
 }
-.navbar ul li a{
-    color: #C5c6c7; 
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding-top:px;
-    font-weight: bold;
-    display: block;
-    float: left;
+.brandlogo{
+    display: none;
 }
 
-.navbar ul li a:hover{
-   color: cornflowerblue;
-    transition: 0.5sec;
+.navmenu{
+    justify-content: flex-start;
 }
-
-.icon {
- margin-top: 6px;
-    padding-left: 15em;
-    font-size: 27px;
-    margin-left:60px ;
-    text-align: center;}
-
-.icon a{
-    margin-left: 15px;
-}
-    
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-  }
-    
-  /* Facebook */
-.fa-linkedin {
-    /* background: #3B5998;*/
-    color: #C5c6c7; 
-    width:30px;
-    height:28x;;
-    text-decoration: none;
-    justify-content: space-between;
-    
-
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    /* background: #55ACEE;*/
-    color: #C5c6c7; 
-    text-decoration: none;
-    justify-content: space-between;
-    width:30px;
-    height:28px;;
-    /* border-radius: 50%; */
-
-  }
-  .fa-github {
-    /* background: black;*/
-    color: #C5c6c7; 
-    text-decoration: none;
-    justify-content: space-between;
-    border-radius: 50%;}
-  
 
 /* HERO SECTION */
 .hero{

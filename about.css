@@ -218,47 +218,88 @@ body{
 
 
 
+@media screen and (max-width:600px){
 
-@media screen and (max-width:722px){
+
+
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 322px;
+        justify-content: space-between;
+        font-size: 50px;
+        width: 600px;
+    }
+    .icon{
+        display: none;
+    }
+    
+    .navmenu{
+        /* width: 700px; */
+        background-color: transparent;
+    }
+    .brandlogo{
+        display: none;
+    }
+    
+    .navmenu{
+        justify-content: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
     .biodiksha{
         display: flex;
         flex-direction: column-reverse;
-        width: 700px;
+        width:622px;
     }
     .deebio h1{
        padding-top: 50px;
        font-size: 40px;
-       /* padding-left: 3px; */
+       padding-right: 20px;
        color:#66fcf1 ;
        font-weight: bolder;
    }
    #dt{
-       padding-left: 120px;
+       padding-left: 60px;
    }
    
    
    .deebio h2{
        padding-top: 20px;
-       padding-left: 120px;
+       padding-left: 60px;
        text-align: left;
        line-height: 27px;
        font-size: 20px;
        font-family:Arial, Helvetica, sans-serif;
        width: auto;
    }
+
+.resume{
+    padding-left: 60px;
+
+}
+
    
    .hero1 img{
        border-radius: 50%;
-       margin-left: 120px;
-       width: 400px;
-       height: 400px;
+       margin-left: 70px;
+       width: 410px;
+       height: 410px;
    }
 
    #skillssection{
       
        height: 80vh;
       /* align-items: center; */
-      padding-left: 100px;
+      padding-left: 60px;
    
    }
    
@@ -267,14 +308,16 @@ body{
    #skills{
        
        margin-top: 65px;
-       padding-left: 100px; 
+       padding-left: 60px; 
        font-size: 55px;   
        margin-bottom: 60px; 
        color: #66fcf1;
    }
+
+
    
    .icons{
-       margin-left: 120px;
+       margin-left: 100px;
        /* margin-bottom: 100px; */
        width:200px;
        height:580px;
@@ -302,6 +345,7 @@ body{
        .more{
            /* background-color: black; */
            text-align: center;
+           margin-bottom: 100px;
        }
        #more1{
            background-color: transparent;
@@ -312,8 +356,8 @@ body{
            height: 50px;
            width: 14rem;
            font-size: 25px;
-           margin-top: 600px;
-           margin-left: 180px;
+           margin-top: 500px;
+           margin-left: 90px;
            
        }
        #more1:hover{
@@ -324,9 +368,8 @@ body{
        #btn-back-to-top{
            position: fixed;
            font-size: 30px;
-           bottom: 20px; 
-            right: 20px;
-           display: none;
+           bottom: 60px; 
+            right: 170px;
    } 
 
 
