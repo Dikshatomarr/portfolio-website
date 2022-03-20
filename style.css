@@ -3,6 +3,36 @@
     box-sizing: border-box;
     list-style: none;
 }
+.animate-character
+{ margin-bottom: 1rem;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
 
 body {
     font-size: 10px;
@@ -156,12 +186,12 @@ color: rgb(75, 133, 180);
     color:#fff7f7; 
     transition:  height 1s, width 1s,background 1s, color 1s;
     font-size: 18px;
-    background-color: rgb(75, 133, 180);
+    background-color: transparent;
 
     width: 155px;
     height: 49px;
     border-radius: 24px;
-    border-color: #fcf8f8;
+    border-color: #df8383;
     font-weight: bold;
     margin-left: 60px;
 }
@@ -169,8 +199,8 @@ color: rgb(75, 133, 180);
 .hero button:hover{
     width: 165px;
     height:59px;
-    background: #66c5fc;
-    color: rgb(16, 16, 17);
+    background: #030303;
+    color: rgb(254, 254, 255);
 }
 
 
@@ -218,6 +248,7 @@ color: rgb(75, 133, 180);
    background-color: #0077b5;
    width:33px;
 }
+
 #t{
     background-color: #0077b5;
    width:33px;
@@ -318,36 +349,35 @@ body {
 padding-top: 140px;
 font-size: 50px;
 margin-bottom: 20px;
-padding-left: 50px;
+padding-left: 30px;
 color: rgb(75, 133, 180);
 
 }
 
 .hero p{
    font-size: 22px;
-   padding-left: 50px;
+   padding-left: 30px;
    background-color: #000000;
-   width: 320px;
+   width: 330px;
    padding-top: 20px;
-   font-family:"League Spartan";
+   font-family:Arial, Helvetica, sans-serif;
 }
   
 .hero button{
     line-height: 30px;
-    margin-top: 90px;
+    margin-top: 70px;
    
-    color:#080808; 
+    color:#ffffff; 
     transition:  height 1s, width 1s,background 1s, color 1s;
     font-size: 18px;
-    background-color: rgb(75, 133, 180);
-
+    background-color: black;
     width: 155px;
     height: 49px;
     border-radius: 24px;
-    /* border-color: #000000; */
+    border-color: #df8383;
     font-weight: bold;
     margin-left: 90px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .hero button:hover{
@@ -377,47 +407,58 @@ color: rgb(75, 133, 180);
     min-height: 150px;
     font-family: oswald;
     margin-left: 2em;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 .contact h1{
-    font-family: "sans-serif"; 
-    text-decoration: underline;
+    font-family: "arial"; 
+    color: #ffffff;
+    margin-left: 100px;
 }
 .intro{
+    display: none;
     margin-left: 1em;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     font-size: 20px;
 }
 .socials{
     margin-left: 1em;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     font-size: 20px;
+    /* text-align: center; */
+
 
 }
 .socials h1{
     font-size: 20px;
+    display: none;
 
 }
 .socials a{
-    font-size: 25px; 
+    font-size: 35px; 
+    margin-left: 30px;
+    
 }
 #l{
    background-color: #0077b5;
-   width:25px;
+   width:35px;
+   /* text-align: center; */
+
 }
 #t{
     background-color: #0077b5;
-   width:25px;
-   height: 24px;
+   width:35px;
+   height: 35px;
 }
 .contact h1{
     font-size: 20px;
 
 }
 .contact p{
+    /* text-align: center; */
+
     margin-top: 15px;
     font-size: 15px;
     font-family: "League Spartan";
