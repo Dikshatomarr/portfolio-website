@@ -105,7 +105,8 @@ for Phone */
 
 
 
-@media screen and (max-width:622px) {
+@media screen and (min-width: 100px) and (max-width: 622px){
+
 .body{
     height:50vh;
 }
@@ -140,10 +141,12 @@ for Phone */
 .navbar{
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 200px;
-    justify-content: space-between;
-    font-size: 50px;
-    width: 560px;
+    padding-right: 100px;
+    /* justify-content: space-between; */
+    font-size: small;
+    width: auto;
+    height: 55px;
+    background-color: transparent;
 }
 .icon{
     display: none;
