@@ -388,38 +388,38 @@ color: rgb(75, 133, 180);
     margin-left: 1em;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    font-size: large;
+    font-size: 20px;
 }
 .socials{
     margin-left: 1em;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: large;
+    font-size: 20px;
 
 }
 .socials h1{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .socials a{
-    font-size: 35px; 
+    font-size: 25px; 
 }
 #l{
    background-color: #0077b5;
-   width:33px;
+   width:25px;
 }
 #t{
     background-color: #0077b5;
-   width:33px;
-   height: 34px;
+   width:25px;
+   height: 24px;
 }
 .contact h1{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .contact p{
-    margin-top: 30px;
-    font-size: 20px;
+    margin-top: 15px;
+    font-size: 15px;
     font-family: "League Spartan";
 }
 
