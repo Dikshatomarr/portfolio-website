@@ -52,6 +52,7 @@ body {
 .navbar{
     /* list-style-type: none; */
     display: flex;
+    overflow:hidden;
     /* background-image: url(img/img1.webp);
     background-repeat: no-repeat;
     background-size: cover; */
